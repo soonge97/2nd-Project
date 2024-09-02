@@ -41,7 +41,7 @@ spec:
           matchLabels:
             app: was-order
       containers:
-      - image: soonge97/was-order-before:v1.1
+      - image: soonge97/was-order-after:v1.0
         name: was-order
         ports:
         - containerPort: 8080
