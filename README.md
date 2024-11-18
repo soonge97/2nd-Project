@@ -28,7 +28,7 @@ AWS의 관리형 서비스인 EKS를 활용하여 간편하면서도 안정적�
 
 | Name | 임희진 | 이재혁 | 이창수 | 장정원 |
 | :------------: | :------------: | :------------: | :------------: | :------------: |
-|  | ![임희진4](https://github.com/user-attachments/assets/685032f2-ef80-4e27-b0e4-b1e7c1de232b) | ![이재혁4](https://github.com/user-attachments/assets/ae5f9148-cb99-4322-8563-c120e89a7b8f) | ![황기창4](https://github.com/user-attachments/assets/7d7f190c-9ed3-4109-8361-b85141b9f88e) |
+|  | ![임희진](https://github.com/user-attachments/assets/74459b22-c4b0-4718-9b90-4a8c89d94443) | ![이재혁](https://github.com/user-attachments/assets/5262f984-16b6-483d-9c59-cc4db778cfdb) | ![이창수](https://github.com/user-attachments/assets/75a42028-ef7c-4c3d-9062-f4a182c20379) | ![장정원](https://github.com/user-attachments/assets/28b895ad-0843-4e34-99e2-28ab5f64f14c) |
 | __Position__ | Project Leader | Technology Leader| Engineer| Engineer|
 
 
@@ -113,42 +113,46 @@ AWS의 관리형 서비스인 EKS를 활용하여 간편하면서도 안정적�
 
 
 ## 🧱 아키텍처
-![3차_3조전체시방서](https://github.com/user-attachments/assets/afa3839c-6442-4190-8153-7a8bcc13f981)
+![4조_2차프로젝트_시방서](https://github.com/user-attachments/assets/e9cd994c-5ebb-4e53-85a0-ff3125ee10a6)
 
 
 
 ## 🌐 PAGE
-* 메인
-![main](https://github.com/user-attachments/assets/96d12c60-303f-43aa-878d-529cfa3af879)
+* 메인 및 로그인
+![1 메인페이지](https://github.com/user-attachments/assets/76599271-acb9-48fd-a2de-fa272310640e)
 
 * 회원가입
-![signup](https://github.com/user-attachments/assets/71703698-b275-4023-8522-18d7b6ccf3a6)
+![2 회원가입](https://github.com/user-attachments/assets/f180f118-23ac-448c-a1c9-65a73c27d8b7)
 
-* 로그인
-![login](https://github.com/user-attachments/assets/9677e526-100e-4d74-b66b-da97f03ea029)
+* 로딩
+![3 주문1](https://github.com/user-attachments/assets/6bbbb31b-4486-4275-b0da-a531c8363518)
 
 * 주문
-![order1](https://github.com/user-attachments/assets/398a3a1b-84e2-44d7-9fac-27a0a931407d)
-![order2](https://github.com/user-attachments/assets/38142566-6c7a-49b3-92e1-209ba20982f2)
-
-* 예약
-![reservation1](https://github.com/user-attachments/assets/611ceb9d-7467-4364-a23b-c77bd22181d9)
-
-* 관리자 전용 페이지
-![reservation2](https://github.com/user-attachments/assets/7ca37b6d-2539-4af0-8878-598bf6df85e9)
+![3 주문2](https://github.com/user-attachments/assets/05c045a8-1c04-4c4d-90bc-62882e0388fd)
 
 ## 🧪 테스트 영상
-* Redis 적용
 
-![Redis](https://github.com/user-attachments/assets/e6cbeb7d-da8b-49da-b6d5-b97a80e2be3b)
+CA, HPA 부하테스트와 롤링업데이트,롤백 테스트영상은 용량 문제로 링크 첨부합니다.
 
-* 롤링업데이트 및 롤백
+* 데이터베이스 연동 테스트
+
+![DB연동테스트](https://github.com/user-attachments/assets/0e508d05-9273-420a-b137-17fa9f2a2272)
+
+* Redis 연동 테스트
+
+![Redis 테스트](https://github.com/user-attachments/assets/308fe7d9-ce8c-4114-9e30-406c72cfd224)
+
+* Jmeter 부하테스트 Whatap 모니터링
   
-![롤백](https://github.com/user-attachments/assets/254cafa6-b660-42e1-a24c-b1d705033493)
+![CA테스트](https://github.com/user-attachments/assets/35a88447-f12a-4a24-9366-4109efca8e19)
 
-* 부하테스트 및 Whatap 모니터링
+* Jmeter CA, HPA 부하테스트
+https://youtu.be/RAUeUEzNpuE?si=sQfnE0VihyQrZwnT
 
-![부하테스트 및 Whatap 모니터링](https://github.com/user-attachments/assets/fa3cd54d-1fa3-499f-bafc-88482725109b)
+* 롤링업데이트 & 롤백
+https://youtu.be/LRuzPJXX9fg?si=JPQDavTHgQ2bojkp
+
+
 
 
 ## 📦 산출물
@@ -156,7 +160,6 @@ JSP는 용량문제로 코드만 첨부합니다.
 
 PPT는 용량문제로 분할 첨부합니다.
 
-* Terraform 소스코드
 * Dockerfile
 * yaml
 * JSP
